@@ -1,0 +1,6 @@
+timestamp,task_id,run_id,status,run_with,queue_dwell_seconds,active_execution_seconds,total_latency_seconds,step_count,interior_price_usd,balcony_price_usd,ship_name,departure_date
+2026-11-15T23:17:44.981208+00:00,214c0719-6c2a-41ba-af71-dfd5d33aabea,tsk_597436247555369152,completed,code,0.0,47.037,48.363,2,434,700,Adventure of the Seas,2027-04-18
+2026-11-15T23:31:00.939885+00:00,40521368-d06f-4f40-90d3-1d00a24ce4cc,tsk_597439662054369590,completed,code,0.0,55.248,56.803,2,434,700,Adventure of the Seas,2027-04-18
+2026-11-15T23:34:04.912247+00:00,ba94461e-04cd-4ca8-ba8f-fd4bbbc59a86,tsk_597440452328352290,completed,code,0.0,50.366,50.394,2,434,700,Adventure of the Seas,2027-04-18
+2026-11-16T00:01:59.150108+00:00,33a85ba5-eb24-41ae-a7a7-8c10b4bc456f,tsk_597447650080200544,completed,code,0.0,69.244,71.183,3,22.0,,Project Hail Mary,Paperback
+2026-11-16T00:05:34.328909+00:00,754e0a30-918f-4660-a8fe-8e562ce1dccf,tsk_597448572967322600,completed,code,0.0,42.588,44.538,2,22.0,,Project Hail Mary,Paperback

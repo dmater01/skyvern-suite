@@ -1,0 +1,6 @@
+{
+  "workspaceTrust": "trusted",
+  "toolPermission": "request-review",
+  "defaultModel": "gemini-2.5-pro",
+  "pythonPath": ".venv/bin/python"
+}

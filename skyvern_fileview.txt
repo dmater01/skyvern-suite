@@ -1,0 +1,29 @@
+antigravity_skyvern_production_suite/
+├── .antigravity/
+│   └── settings.json             # Workspace trust, default model, and permission settings
+├── .agents/
+│   ├── mcp_config.json           # Model Context Protocol servers (e.g., filesystem tools)
+│   └── rules/
+│       └── skyvern_rules.md      # Domain-specific trigger rules for Skyvern interactions
+├── AGENTS.md                     # Universal agent rules, coding standards, and safety invariants
+├── GEMINI.md                     # Gemini-specific prompt context & async guidelines
+├── src/
+│   ├── api/
+│   │   └── server.py             # FastAPI headless REST API (Introspect & Execute)
+│   ├── frontend/
+│   │   └── streamlit_app.py      # Dynamic UI generator from inspected schemas
+│   ├── core/
+│   │   ├── introspect.py         # Visual element inspector & schema generator
+│   │   └── executor.py           # Autonomous action execution runner
+│   ├── config.py                 # Pydantic environment settings
+│   └── schemas.py                # Strongly typed input specs & API contracts
+├── workflows/
+│   ├── resilient_batch_runner.py # Multi-item loop with 2FA/vault & recovery
+│   └── screening_task.py         # Autonomous task runner
+├── tests/
+│   └── test_schemas.py           # Pytest unit tests for Antigravity verification loops
+├── Dockerfile                    # Container definition for API + UI
+├── docker-compose.yml            # Multi-service local production orchestration
+├── requirements.txt              # Production Python dependencies
+├── .env.example                  # Environment configuration template
+└── README.md                     # Antigravity CLI onboarding instructions

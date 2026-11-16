@@ -1,0 +1,28 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python Virtual Environments & Bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# OS & Editor Metadata
+.DS_Store
+**/.DS_Store
+
+# Runtime Browser Artifacts & Media Buffers
+video/
+har/
+temp/
+downloads/
+artifacts/*/
+!artifacts/benchmark_timings.csv
